@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Training / inference artifacts
+ckpts/
+*.pt
+*.bin
+*.safetensors
+
+# Generated results (reproducible from code — keep repo small)
+results/*/*.json
+results/*.csv
+!results/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Notebooks checkpoint
+.ipynb_checkpoints/

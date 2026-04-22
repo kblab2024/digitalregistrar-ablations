@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.1
+tqdm>=4.66
+
+# DSPy (cells A, B) — matches the parent project
+dspy-ai>=2.4
+
+# Cell B via gpt-4-turbo, Cell C via gpt-4-turbo and gpt-oss (Ollama speaks OpenAI API)
+openai>=1.40
+
+# Schema validation for Cell C's raw JSON output
+pydantic>=2.6
+jsonschema>=4.22
